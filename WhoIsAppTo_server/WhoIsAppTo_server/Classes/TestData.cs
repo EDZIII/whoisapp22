@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 
 namespace WhoIsAppTo_server.Classes
 {
-	public class PartecipantManager
+	public class TestData
 	{
+		public string p1 { get; set; }
+		public string p2 { get; set; }
+		public string p3 { get; set; }
 	}
 }

@@ -1,26 +1,43 @@
 ﻿@page
-<div class="container">
-    <div class="row">&nbsp;</div>
-    <div class="row">
-        <div class="col-6">&nbsp;</div>
-        <div class="col-6">
-            User..........<input type="text" id="userInput" />
-            <br />
-            Message...<input type="text" id="messageInput" />
-            <input type="button" id="sendButton" value="Send Message" />
+    <div class="container">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+
+            <div class="col-6">
+                User..........<input type="text" id="userInput" />
+                <br />
+                Wants to..........<input type="text" id="activityInput" />
+                <br />
+                Category...<input type="text" id="categoryInput" />
+                <br />
+                Time...<input type="text" id="timeInput" />
+                <br />
+                Place...<input type="text" id="placeInput" />
+                <br />
+                Partecipants...<input type="text" id="partecipantsInput" />
+                <input type="button" id="eventAddButton" value="Add Event" />
+            </div>
+
+        </div>
+       <div id="hubLanding">
+
+
+
+       </div>
+
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">&nbsp;</div>
+            <div class="col-6">
+                <ul id="eventList"></ul>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <hr />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6">&nbsp;</div>
-        <div class="col-6">
-            <ul id="messagesList"></ul>
-        </div>
-    </div>
-</div>
 <script src="~/lib/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/chat.js"></script>
+<script src="~/js/event.js"></script>

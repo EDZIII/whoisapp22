@@ -1,0 +1,28 @@
+{
+  "Events": [
+    {
+      "EventID": "00000000-0000-0000-0000-000000000000",
+      "UserID": "00000000-0000-0000-0000-000000000000",
+      "UserCredentials": "sfda",
+      "EventDescription": "ge",
+      "EventCategory": "wg",
+      "EventTime": "rgh",
+      "EventPlace": "rhe",
+      "EventParticipants": 34,
+      "EventJoined": 0,
+      "EventCreationTime": null
+    },
+    {
+      "EventID": "00000000-0000-0000-0000-000000000000",
+      "UserID": "00000000-0000-0000-0000-000000000000",
+      "UserCredentials": "gw",
+      "EventDescription": "qe",
+      "EventCategory": "wr",
+      "EventTime": "wet",
+      "EventPlace": "sgd",
+      "EventParticipants": 3,
+      "EventJoined": 0,
+      "EventCreationTime": null
+    }
+  ]
+}

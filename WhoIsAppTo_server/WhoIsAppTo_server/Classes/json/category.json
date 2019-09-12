@@ -1,0 +1,26 @@
+{
+
+  "Category": [
+    {
+      "ID": "1",
+      "Name": "Sport"
+    },
+    {
+      "ID": "2",
+      "Name": "Culture"
+    },
+    {
+      "ID": "3",
+      "Name": "Work"
+    },
+    {
+      "ID": "4",
+      "Name": "Free Time"
+    },
+    {
+      "ID": "5",
+      "Name": "Culture"
+    }
+  ]
+
+}

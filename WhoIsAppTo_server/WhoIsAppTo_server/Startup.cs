@@ -55,7 +55,9 @@ namespace WhoIsAppTo_server
 			app.UseCookiePolicy();
 			app.UseSignalR(routes =>
 			{
-				routes.MapHub<ChatHub>("/chatHub");
+				//routes.MapHub<ChatHub>("/chatHub");
+				routes.MapHub<EventHub>("/eventHub");
+				
 			});
 
 			app.UseMvc();
